@@ -31,7 +31,7 @@
   opacity: .9;
   text-align: center;
   border: none;
-  margin: 20% 5% 20% 5%;
+  margin: 25% 5% 20% 5%;
   padding: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
@@ -59,4 +59,28 @@
   margin: 35px 20px 0 20px;
   padding: 8px;
   text-align: justify;
+}
+.panel-heading {
+  margin: 0;
+  text-align: center;
+  letter-spacing: 8px;
+  padding: 25px;
+  font-family: 'Droid Sans', sans-serif;
+}
+.panel-title {
+  font-size: 40px;
+}
+.aboutme {
+  color: #2e4c4b;
+}
+.desert {
+  width: 50%;
+  float: left;
+  margin-right: 40px;
+  margin-left: 5px;
+}
+.well {
+  margin: 5% 5px 5% 52%;
+  background-color: #d9c2ba;
+  opacity: .9;
 }
