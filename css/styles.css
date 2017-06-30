@@ -40,8 +40,8 @@
 }
 .col-md-4 {
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .col-md-4 a:link, .col-md-4 a:visited {
   border: none;
@@ -56,12 +56,53 @@
   border: solid 5px #ba917b;
 }
 .col-md-4 p {
-  margin: 35px 20px 0 20px;
+  margin: 35px 20px 0px 20px;
   padding: 8px;
   text-align: justify;
 }
+.projects {
+    background-color: #e2cbb0;
+    margin-bottom: 0px;
+}
+.aboutme {
+  background-image: url("../img/desert.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+.well {
+  margin: 40px 5% 40px 50%;
+  background-color: #d9c2ba;
+  opacity: .8;
+  padding: 40px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  color: #4b3b42;
+  font-size: 17px;
+}
+.aboutme h2 {
+  color: #inherit;
+}
+.well h3 {
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+.well h3:first-of-type {
+  font-size: 35px;
+}
+.about, .hobby {
+  font-style: italic;
+}
+.list {
+  margin-left: 8%;
+}
+
+
 .panel-heading {
-  margin: 0;
+  margin-top: 10px;
   text-align: center;
   letter-spacing: 8px;
   padding: 25px;
@@ -69,18 +110,4 @@
 }
 .panel-title {
   font-size: 40px;
-}
-.aboutme {
-  color: #2e4c4b;
-}
-.desert {
-  width: 50%;
-  float: left;
-  margin-right: 40px;
-  margin-left: 5px;
-}
-.well {
-  margin: 5% 5px 5% 52%;
-  background-color: #d9c2ba;
-  opacity: .9;
 }
