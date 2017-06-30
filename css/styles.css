@@ -38,12 +38,12 @@ body * { /*No white space on top*/
   font-weight: bold;
   letter-spacing: 25px;
 }
-.col-md-4 {
+.projects .col-md-4 {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.col-md-4 a:link, .col-md-4 a:visited {
+.projects .col-md-4 a:link, .col-md-4 a:visited {
   border: none;
   background-color: #ba917b;
   color: #ffffff;
@@ -51,11 +51,11 @@ body * { /*No white space on top*/
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 5px;
 }
-.col-md-4 a:hover {
+.projects .col-md-4 a:hover {
   text-decoration: none;
   border: solid 5px #ba917b;
 }
-.col-md-4 p {
+.projects .col-md-4 p {
   margin: 35px 20px 0px 20px;
   padding: 8px;
   text-align: justify;
@@ -110,30 +110,22 @@ body * { /*No white space on top*/
 .panel-title {
   font-size: 40px;
 }
-.uw img, .coursera img, .epi img {
-  width: 80%;
-  margin-left: 10%;
+.education {
+  display: block;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
-.uw, .coursera, .epi {
-  padding: 20px;
+.uw li, .coursera li, .epi li {
+  list-style-type: none;
+  margin-top: 15px;
 }
-.uw, .coursera {
-  margin-right: 10%;
-}
-.epi {
-  margin-left: 10%;
+.education img {
   margin-top: 2%;
+  width: 30%;
 }
-.panel-info li {
-  margin-top: 20px;
-  font-family: 'Open Sans', sans-serif;
-  text-align: justify;
-}
-.coursera {
-  width: 100%;
-}
-.coursera img {
-  width: 40%;
+.education .coursera img {
+  width: 20%;
 }
 
 @media screen and (max-width: 768px) {
